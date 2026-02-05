@@ -1,34 +1,41 @@
-# JavaScript Practice – Loops & Functions
+# JavaScript Advanced Practice – Loops & Functions
 
 ## 📌 Overview
-This repository contains **basic JavaScript homework** focused on:
+This repository contains **advanced JavaScript homework** focused strictly on:
 - Loops and Iteration
 - Functions
 
-This assignment is designed for beginners to practice repetition and function usage using simple examples.
+The exercises are designed to improve **algorithmic thinking**, **data processing**, and **code structuring** using only loops and functions.
+
+⚠️ No conditionals and no array methods are allowed.
 
 ---
 
 ## 🎯 Learning Objectives
-By completing this homework, students will learn how to:
-- Create and call functions
-- Use `for` and `while` loops
-- Repeat actions using loops
-- Work with arrays using basic iteration
-- Run JavaScript code with Node.js
+By completing this assignment, students will be able to:
+- Design reusable and modular functions
+- Solve problems using only loops
+- Work with arrays and strings using iteration
+- Build simple algorithms without built-in helpers
+- Understand time complexity at a basic level
 
 ---
 
-## 🛠️ Requirements
-- JavaScript basics
-- Node.js installed
-- Code editor (VS Code recommended)
+## 🛠️ Technical Constraints
+- JavaScript (ES6)
+- Run using Node.js
+- No `if`, `else`, `switch`, or ternary operators
+- No array methods (`map`, `filter`, `reduce`, `forEach`)
+- Only:
+  - functions
+  - loops (`for`, `while`, `do...while`)
+  - variables and operators
 
 ---
 
 ## 📂 Project Structure
 ```
-📦 js-loops-functions-basic
+📦 js-advanced-loops-functions
  ┣ 📜 app.js
  ┣ 📜 README.md
 ```
@@ -44,70 +51,117 @@ node app.js
 
 ## 🧪 Exercises
 
-### 1️⃣ Simple Function
-Create a function called `sayHello` that prints:
-```
-Hello World
-```
+### 1️⃣ Custom Array Length
+Create a function that:
+- Receives an array
+- Calculates its length **without using `.length`**
+- Returns the length
 
 ---
 
-### 2️⃣ Function with Parameter
-Create a function that receives a name and prints:
-```
-Hello <name>
-```
+### 2️⃣ Manual Index Access
+Create a function that:
+- Receives an array
+- Prints each element **with its index**
+- Index must be calculated manually using a loop
 
 ---
 
-### 3️⃣ for Loop
-Using a `for` loop:
-- Print numbers from 1 to 5
-
----
-
-### 4️⃣ while Loop
-Using a `while` loop:
-- Print numbers from 5 to 1
-
----
-
-### 5️⃣ Loop Through an Array
-Given the array:
-```js
-const numbers = [1, 2, 3, 4, 5];
-```
-
-- Print each number using a loop
-
----
-
-### 6️⃣ Sum of Numbers
+### 3️⃣ Array Sum (No Helpers)
 Create a function that:
 - Receives an array of numbers
-- Uses a loop to calculate the total sum
-- Prints the result
+- Uses a loop to calculate the sum
+- Returns the result
 
 ---
 
-### 7️⃣ Repeat a Message
+### 4️⃣ Maximum Value
+Create a function that:
+- Receives an array of numbers
+- Finds the maximum value using only loops
+- Returns the maximum
+
+---
+
+### 5️⃣ Reverse an Array
+Create a function that:
+- Receives an array
+- Returns a **new reversed array**
+- Do not modify the original array
+
+---
+
+### 6️⃣ Count Occurrences
+Create a function that:
+- Receives an array and a value
+- Counts how many times the value appears
+- Returns the count
+
+---
+
+### 7️⃣ String Iteration
+Create a function that:
+- Receives a string
+- Counts how many characters it contains
+- Do not use `.length`
+
+---
+
+### 8️⃣ Character Frequency
+Create a function that:
+- Receives a string
+- Returns an object with each character and its count
+- Use only loops
+
+---
+
+### 9️⃣ Pattern Generator
 Create a function that:
 - Receives a number `n`
-- Prints `JavaScript is fun!` `n` times
+- Prints the following pattern:
+
+For `n = 4`:
+```
+*
+**
+***
+****
+```
 
 ---
 
-## 📚 Rules
-- Do NOT use array methods (`map`, `filter`, `reduce`, `forEach`)
-- Use only:
-  - functions
-  - loops (`for`, `while`)
-- Write clear and simple code
-- Add comments to explain what your code does
+### 🔟 Nested Loops Challenge
+Create a function that:
+- Receives a number `n`
+- Prints a square of `n x n` using `#`
+
+For `n = 3`:
+```
+###
+###
+###
+```
+
+---
+
+## 📚 Rules Recap
+❌ No conditionals  
+❌ No array methods  
+❌ No `.length` (where specified)  
+
+✅ Only loops  
+✅ Only functions  
+
+---
+
+## 🚀 Bonus (Expert)
+- Implement all functions without using `break` or `continue`
+- Analyze time complexity of each function in comments
+- Solve all exercises using only `while` loops
 
 ---
 
 ## 🧠 Author
-JavaScript homework for beginners.
+Advanced JavaScript homework for algorithmic practice.
 
-Happy coding! 🚀
+Good luck — this one is meant to hurt a little 😈
